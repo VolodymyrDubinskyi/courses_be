@@ -1,0 +1,19 @@
+{
+  "name": "lc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1",
+    "querystring": "^0.2.1"
+  },
+  "scripts": {
+    "start": "nodemon ./main.js"
+  }
+}
