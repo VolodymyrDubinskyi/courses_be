@@ -23,6 +23,4 @@ export async function makeQuery(query) {
   })
 }
 
-export let GET_TODOS = 'SELECT * FROM todos'
-
 export default conn
